@@ -1,6 +1,6 @@
 import React from "react";
 import { Home, Tv, Store, Users, User, ShieldCheck, Heart } from "lucide-react";
-import logoImage from '../assets/logo.png'; 
+import logoImage from "../assets/logo.PNG";
 
 export default function Footer({ activeTab, setActiveTab, darkMode }) {
   const mobileNavTabs = [
@@ -26,9 +26,13 @@ export default function Footer({ activeTab, setActiveTab, darkMode }) {
             {/* Column 1: Brand */}
             <div>
               <div className="flex items-center gap-2 mb-3">
-            <div className="w-10 h-10 rounded-2xl overflow-hidden shadow-md shadow-emerald-600/20 ring-2 ring-emerald-600/30 group-hover:ring-emerald-600 transition-all">
-              <img src={logoImage} alt="Emmychat Logo" className="w-full h-full object-cover" />
-            </div>
+                <div className="w-10 h-10 rounded-2xl overflow-hidden shadow-md shadow-emerald-600/20 ring-2 ring-emerald-600/30 group-hover:ring-emerald-600 transition-all">
+                  <img
+                    src={logoImage}
+                    alt="Emmychat Logo"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <span className="font-bold text-sm text-gray-900 dark:text-white">
                   EmmyChat
                 </span>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Eye, EyeOff, Lock, Mail, User, AlertCircle } from "lucide-react";
-import logoImage from '../assets/logo.png'; 
+import logoImage from "../assets/logo.PNG";
 import {
   auth,
   createUserWithEmailAndPassword,
@@ -105,7 +105,11 @@ export default function Auth({ onLogin, darkMode }) {
         <div className="text-center md:text-left max-w-md">
           <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
             <div className="w-10 h-10 rounded-2xl overflow-hidden shadow-md shadow-emerald-600/20 ring-2 ring-emerald-600/30 group-hover:ring-emerald-600 transition-all">
-              <img src={logoImage} alt="Emmychat Logo" className="w-full h-full object-cover" />
+              <img
+                src={logoImage}
+                alt="Emmychat Logo"
+                className="w-full h-full object-cover"
+              />
             </div>
             <h1 className="text-4xl font-extrabold text-emerald-600 tracking-tight">
               EmmyChat
